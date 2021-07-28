@@ -5,6 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>G2 Email</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!--[if mso]>
+<style type="text/css">
+    Outlook Client Container Perfect width across all clients
+.container {
+  margin-top: 60px !important;
+  width: 600px;
+}
+.clara-img {
+    width: 40% !important;
+}
+</style>
+<![endif]-->
+<style>
+    @media only screen and (max-width: 600px){
+        .container {
+            width: 100%;
+        }
+        .header {
+            width: 100% !important;
+        }
+        .header-recipient {
+            width: 100%;
+        }
+        .header-recipient-image p {
+            padding-left: 15px;
+        }
+    }
+</style>
 </head>
 <body>
    
@@ -12,38 +45,181 @@
         <td>
              <!-- start of html email -->
             <table width="100%" cellspacing="0" cellpadding="0" border="0">
-              <tr>
-                  <td>
+               <tr>
+                   <td>
                       <!-- start of container -->
-                      <table width="600px" cellspacing="0" cellpadding="0" border="0" align = "center"; style="margin-top: 50px;">
-                          <tr>
-                              <!-- start of logo row -->
-                              <td>
-                                  <center>
-                                      <img src="/img/G2-logo.png" alt="G2 Logo" style="width: 50px;">
-                                  </center>
-                              </td>
-                              <!-- end of logo row -->
-                          </tr>
-                          <tr>
-                              <!-- start of header row -->
-                              <td>
-                                <table width="100%" cellspacing="0" cellpadding="0" border="0" style="background-color: #5a39a2; margin-top: 30px; padding-top: 60px;">
-                                   <tr>
-                                       <td>
-                                           <center>
-                                               <img src="/img/header-image.png" alt="header image">
+                    <table class="container" width="600px" cellspacing="0" cellpadding="0" border="0" align ="center"; style="padding-top: 50px;">
+                        <!-- start of logo row -->
+                        <tr>
+                            <td>
+                                <table width="100%" cellspacing="0" cellpadding="0" border="0" style="margin-bottom: 30px;">
+                                    <tr>
+                                        <td>
+                                            <center class="logo">
+                                                <img src="https://i.postimg.cc/J0jYK1LX/logo-rendered.jpg" alt="G2 Logo"
+                                                    style="width: 10%;">
                                             </center>
-                                       </td>
-                                   </tr>
+                                        </td>
+                                    </tr>
                                 </table>
-                              </td>
-                              <!-- end of header row -->
-                          </tr>
-                      </table>
-                      <!-- end of container -->
-                  </td>
-              </tr>
+                            </td>
+                        </tr>
+                         <!-- end of logo row -->
+                         <!-- start of header row -->
+                        <tr>
+                            <td>
+                                <table class="header" cellspacing="0" cellpadding="0" border="0"
+                                    style="background-color: #5a39a2; padding: 60px; border-radius: 10px; width: 100%;">
+                                    <tr>
+                                        <td>
+                                            <center>
+                                                <img src="https://i.postimg.cc/4NdhzWQf/header-intrinsic.jpg" alt="header image" style="width: 100%">
+                                            </center>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <h1 style="font-family: 'Barlow', sans-serif; text-align: center; color: #fff; padding-top: 10px;">
+                                                Join the conversation!</h1>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p
+                                                style="font-family: 'Barlow', sans-serif; line-height: 24px;  color: #ffffff; padding: 0px 0px 40px 0px;">
+                                                I start every meeting by reminding everyone there that there are no bad ideas, and no stupid
+                                                questions. Today I’d like to extend this principle to you and invite you to contribute your
+                                                questions and ideas to the G2 community. We’ve created a space where you and your peers can swap
+                                                knowledge about any and every software imaginable. Have a question about a collaboration tool
+                                                you’re using? Ask it below! Looking for new ideas on how to best utilize a video conferencing
+                                                software? Ask your peers what they are doing! Come learn with us.
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <center>
+                                                <a href="https://www.g2.com/login"
+                                                    style="background: #fff; 
+                                                                text-decoration: none; padding: 12px 75px; color: #5a39a2; 
+                                                                border-radius: 20px; display:inline-block; 
+                                                                mso-padding-alt:0; text-underline-color:#333; font-family: 'Barlow', sans-serif; font-weight: 700; font-size: 18px;">
+                                                    <!--[if mso]>
+                                                                <i style="letter-spacing: 25px;mso-font-width:-100%;mso-text-raise:30pt">&nbsp;</i>
+                                                                <![endif]--><span style="mso-text-raise:15pt;">Ask a Question</span>
+                                                    <!--[if mso]>
+                                                                <i style="letter-spacing: 25px;mso-font-width:-100%">&nbsp;</i><![endif]-->
+                                                </a>
+                                            </center>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <table class="header-recipient" cellspacing="0" cellpadding="0" border="0" width="100%" align="left">
+                                                <tr>
+                                                    <td>
+                                                        <table class="header-recipient-image" cellspacing="0" cellpadding="0" border="0" width="0%"
+                                                            align="left" style="padding-top: 50px;">
+                                                            <tr>
+                                                                <td>
+                                                                    <img class="clara-img" style="width: 78px !important; border-radius: 999px;" src="https://i.postimg.cc/0jGKc4Hj/Clara-rendered.jpg"
+                                                                        alt="Clara image">
+                                                                </td>
+                                                                <td>
+                                                                    <p
+                                                                        style="margin: 0 0 0 15px; font-family: 'Barlow', sans-serif; font-weight: 400; color: #d7cfe8; padding-bottom: 10px;">
+                                                                        Cheers,</p>
+                                                                    <p
+                                                                        style="margin: 0 0 0 15px; font-family: 'Barlow', sans-serif; font-weight: 700; color: #fff;">
+                                                                        Clara</p>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                        
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                         <!-- start of header row -->
+                         <!-- start of footer -->
+                         <tr>
+                             <td>
+                                 <table class="footer" width ="100%" cellspacing="0" cellpadding="0" border="0" style="padding-top: 50px;">
+                                     <tr>
+                                         <td>
+                                           <center>
+                                            <img src="https://i.postimg.cc/J0jYK1LX/logo-rendered.jpg" alt="G2 Logo"
+                                            style="width: 8%;"> 
+                                           </center>
+                                         </td>
+                                     </tr>
+                                     <tr>
+                                         <td>
+                                           <p style="margin: 0; font-family: 'Barlow', sans-serif; color: #9ba9c6; text-align: center; margin-top: 20px;">
+                                            G2, 100 S Wacker Drive Suite 600, Chicago, IL, 60606, United States
+                                           </p>
+                                         </td>
+                                     </tr>
+                                     <tr>
+                                         <td>
+                                           <p style="margin: 0; font-family: 'Barlow', sans-serif; color: #9ba9c6; text-align: center; margin-bottom: 40px;">
+                                            Copyright © 2020 G2, All rights reserved.
+                                           </p>
+                                         </td>
+                                     </tr>
+                                     <tr>
+                                         <td>
+                                           <p style="margin: 0; font-family: 'Barlow', sans-serif; color: #9ba9c6; text-align: center;">
+                                            Update your <span><a href="#" style="text-decoration: none; font-weight: 700; color: #9ba9b5;">email preferences</a></span> to choose the types of emails you receive.
+                                           </p>
+                                         </td>
+                                     </tr>
+                                     <tr>
+                                         <td>
+                                           <p style="margin: 0; font-family: 'Barlow', sans-serif; color: #9ba9c6; text-align: center; margin-bottom: 5px;">
+                                            <span><a href="#" style="text-decoration: none; font-weight: 700; color: #9ba9b5;">Unsubscribe</a></span> from all future emails.
+                                           </p>
+                                         </td>
+                                     </tr>
+                                     <tr>
+                                         <td>
+                                             <center style="margin-bottom: 15px;">
+                                                <a href="#" style="font-family: 'Barlow', sans-serif; color: #5a39a2; text-align: center; text-decoration: none;">Need Help?</a>
+                                             </center>
+                                         </td>
+                                     </tr>
+                                     <tr>
+                                         <td>
+                                             <table width="33.3%" align="center" cellspacing="0" cellpadding="0" border="0">
+                                                 <tr>
+                                                     <td>
+                                                         <img style="width:60%" src="https://i.postimg.cc/Z5RW120t/Facebook.png" alt="Facebook Icon">
+                                                     </td>
+                                                     <td>
+                                                         <img style="width:60%" src="https://i.postimg.cc/sXF1G2ms/LinkedIn.png" alt="Linkedin Icon">
+                                                     </td>
+                                                     <td>
+                                                         <img style="width:60%" src="https://i.postimg.cc/sXpxYRHS/Twitter.png" alt="Twitter Icon">
+                                                     </td>
+                                                     <td>
+                                                         <img style="width:60%" src="https://i.postimg.cc/Gm54rKsB/Instagram.png" alt="Instagram Icon">
+                                                     </td>
+                                                 </tr>
+                                             </table>
+                                         </td>
+                                     </tr>
+                                 </table>
+                             </td>
+                         </tr>
+                         <!-- start of footer -->
+                     </table>
+                      <!-- end of container --> 
+                   </td>
+               </tr>
             </table>
             <!-- end of html email -->
         </td>
